@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aluno.cs" />
+    <Compile Include="bin\Debug\Properties\Settings.Designer.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +123,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Debug\Aluno.csv" />
+    <None Include="bin\Debug\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
+    <None Include="bin\Debug\DiscalculiaHelper.exe.config" />
+    <None Include="bin\Debug\Properties\Settings.settings" />
+    <None Include="bin\Debug\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -250,6 +256,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vazio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Aluno.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\Aluno.sql" />
+    <Content Include="bin\Debug\amd64\Microsoft.VC90.CRT\msvcr90.dll" />
+    <Content Include="bin\Debug\amd64\Microsoft.VC90.CRT\README_ENU.txt" />
+    <Content Include="bin\Debug\amd64\sqlceca40.dll" />
+    <Content Include="bin\Debug\amd64\sqlcecompact40.dll" />
+    <Content Include="bin\Debug\amd64\sqlceer40EN.dll" />
+    <Content Include="bin\Debug\amd64\sqlceme40.dll" />
+    <Content Include="bin\Debug\amd64\sqlceqp40.dll" />
+    <Content Include="bin\Debug\amd64\sqlcese40.dll" />
+    <Content Include="bin\Debug\DiscalculiaHelper.exe" />
+    <Content Include="bin\Debug\DiscalculiaHelper.pdb" />
+    <Content Include="bin\Debug\en\DiscalculiaHelper.resources.dll" />
+    <Content Include="bin\Debug\es-BR\DiscalculiaHelper.resources.dll" />
+    <Content Include="bin\Debug\System.Data.SqlServerCe.dll" />
+    <Content Include="bin\Debug\x86\Microsoft.VC90.CRT\msvcr90.dll" />
+    <Content Include="bin\Debug\x86\Microsoft.VC90.CRT\README_ENU.txt" />
+    <Content Include="bin\Debug\x86\sqlceca40.dll" />
+    <Content Include="bin\Debug\x86\sqlcecompact40.dll" />
+    <Content Include="bin\Debug\x86\sqlceer40EN.dll" />
+    <Content Include="bin\Debug\x86\sqlceme40.dll" />
+    <Content Include="bin\Debug\x86\sqlceqp40.dll" />
+    <Content Include="bin\Debug\x86\sqlcese40.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
