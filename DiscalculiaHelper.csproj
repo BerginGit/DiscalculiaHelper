@@ -251,8 +251,5 @@
   <ItemGroup>
     <None Include="Resources\vazio.png" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\System.Data.SqlServerCe.dll" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
